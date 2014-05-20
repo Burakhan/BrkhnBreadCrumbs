@@ -18,4 +18,3 @@ First add the following to your composer.json file:
 
 Then run composer update.
 
-### Configure Silex
