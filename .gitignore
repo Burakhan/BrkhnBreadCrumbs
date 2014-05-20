@@ -1,0 +1,9 @@
+/web/*
+/app/*
+/build/
+/vendor/
+/bin/
+/composer.phar
+composer.lock
+src/Acme/*
+/.idea/*

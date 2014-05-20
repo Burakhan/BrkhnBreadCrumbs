@@ -1,0 +1,9 @@
+parameters:
+#    brkhn_bread_crumbs.example.class: Brkhn\BreadCrumbsBundle\Example
+
+services:
+    acme.twig.acme_extension:
+        class: Brkhn\BreadCrumbsBundle\Twig\BreadCrumbExtension
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }

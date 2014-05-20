@@ -1,0 +1,3 @@
+brkhn_bread_crumbs_homepage:
+    pattern:  /burakhan/
+    defaults: { _controller: BrkhnBreadCrumbsBundle:Default:index }
