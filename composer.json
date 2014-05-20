@@ -1,11 +1,21 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "brkhn/twig-breadcrumbs",
     "license": "MIT",
-    "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "type": "library",
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "authors": [
+        {
+            "name": "Burakhan Ozyol",
+            "homepage": "http://www.burakhan.com",
+            "email": "burakhan@burakhan.net",
+            "role": "Developer"
+        }
+    ],
+    "description": "Twig breadcrumb extension",
+    "keywords": ["symfony", "twig", "breadcrumbs","extension"],
+    "homepage": "https://github.com/Burakhan/BrkhnBreadCrumbs",
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "~2.4",
